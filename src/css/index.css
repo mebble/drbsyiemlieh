@@ -1,5 +1,6 @@
 :root {
     --m-font-size: 1.25rem;
+    --col-sec: rgb(109, 109, 109);
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 
 main {
     width: max-content;
+    max-width: 80vw;
     height: 100%;
     margin: auto;
 
@@ -21,10 +23,11 @@ main {
 
 h1 {
     font-size: 3rem;
+    margin-bottom: .5rem;
 }
 h2 {
     font-size: 2rem;
-    color: rgb(109, 109, 109);
+    color: var(--col-sec);
 }
 header {
     margin-bottom: 1rem;
