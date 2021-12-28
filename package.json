@@ -2,7 +2,7 @@
   "name": "drbsyiemlieh",
   "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "A website for Kongkong Baia",
   "main": "index.js",
   "scripts": {
     "prebuild": "npm run clean",
@@ -10,7 +10,7 @@
     "dev": "eleventy --input=src --serve",
     "clean": "rm -rf _site"
   },
-  "author": "",
+  "author": "Neil Syiemlieh",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
