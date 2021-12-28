@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "eleventy --serve"
+    "dev": "eleventy --serve --input=src"
   },
   "author": "",
   "license": "ISC",
