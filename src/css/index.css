@@ -21,6 +21,15 @@ header {
     margin-bottom: 1rem;
 }
 
+a {
+    color: black;
+    text-decoration: underline #555 dashed;
+    text-underline-offset: 0.5rem;
+}
+a:visited {
+    color: #777;
+}
+
 #comms {
     padding: 1.5rem 2rem 0.75rem 0;
 }
@@ -28,7 +37,6 @@ header {
     margin-bottom: 1.5rem;
 }
 #comms a {
-    text-decoration: none;
     display: flex;
     align-items: center;
 }
