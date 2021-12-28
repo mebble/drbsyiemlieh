@@ -63,7 +63,7 @@ a:visited {
 
 @keyframes wavy {
     0%, 100% {
-        background-color: #ffeab1;
+        background-color: #fdf2e2;
     }
     25% {
         background-color: #ffc0c0;
