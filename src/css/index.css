@@ -6,7 +6,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: var(--m-font-size);
     height: 100vh;
-    animation: wavy 30s infinite alternate linear;
+    animation: wavy 60s infinite alternate linear;
 }
 
 main {
