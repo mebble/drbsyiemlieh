@@ -5,7 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "eleventy --serve --input=src"
+    "prebuild": "npm run clean",
+    "build": "eleventy --input=src",
+    "dev": "eleventy --input=src --serve",
+    "clean": "rm -rf _site"
   },
   "author": "",
   "license": "ISC",
