@@ -4,10 +4,15 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    padding: 2rem;
-    padding-left: 3rem;
-    margin-top: 3rem;
     font-size: var(--m-font-size);
+
+    width: max-content;
+    height: 80vh;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1 {
@@ -51,8 +56,6 @@ a:visited {
         --m-font-size: 1.75rem;
     }
     body {
-        width: max-content;
-        margin: auto;
-        margin-top: 3rem;
+        height: 100vh;
     }
 }
