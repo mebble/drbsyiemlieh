@@ -1,4 +1,50 @@
+:root {
+    --m-font-size: 1.25rem;
+}
+
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2rem;
+    padding-left: 3rem;
+    margin-top: 3rem;
+    font-size: var(--m-font-size);
+}
+
+h1 {
     font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+    color: rgb(109, 109, 109);
+}
+header {
+    margin-bottom: 1rem;
+}
+
+#comms {
+    padding: 1.5rem 2rem 0.75rem 0;
+}
+#comms li {
+    margin-bottom: 1.5rem;
+}
+#comms a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+#comms img {
+    margin-right: 1rem;
+    width: var(--m-font-size);
+    height: var(--m-font-size);
+}
+
+@media (min-width: 960px) {
+    :root {
+        --m-font-size: 1.75rem;
+    }
+    body {
+        width: max-content;
+        margin: auto;
+        margin-top: 3rem;
+    }
 }
