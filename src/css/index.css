@@ -5,9 +5,12 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: var(--m-font-size);
+    height: 100vh;
+}
 
+main {
     width: max-content;
-    height: 80vh;
+    height: 100%;
     margin: auto;
 
     display: flex;
@@ -54,8 +57,5 @@ a:visited {
 @media (min-width: 960px) {
     :root {
         --m-font-size: 1.75rem;
-    }
-    body {
-        height: 100vh;
     }
 }
