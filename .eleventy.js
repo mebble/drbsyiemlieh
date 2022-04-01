@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
         "src/css/": "css/",
         "src/icons": "icons/",
         "src/favicons/*": ".",
+        "src/site.webmanifest": "site.webmanifest",
     });
     eleventyConfig.addTransform('track-link-clicks', (content, outputPath) => {
         if (outputPath.endsWith(".html")) {
