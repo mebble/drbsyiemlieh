@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
         "src/css/": "css/",
         "src/icons": "icons/",
+        "src/favicons/*": ".",
     });
     eleventyConfig.addTransform('track-link-clicks', (content, outputPath) => {
         if (outputPath.endsWith(".html")) {

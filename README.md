@@ -5,3 +5,11 @@
 Dr B Syiemlieh's clinic
 
 Live at [drbsyiemlieh.com](https://drbsyiemlieh.com)
+
+## Development
+
+```
+npm install
+npm run dev
+npm run build
+```
